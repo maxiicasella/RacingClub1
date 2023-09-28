@@ -1,0 +1,28 @@
+/*
+VARIABLES DE CSS / CUSTOM PROPERTIES
+
+*/
+
+:root{
+    --naranja: #F90; /* --declara la variable: asignamos un valor*/
+    --negro: #000;
+    --blanco: #FFF;
+    --gris01: #333;
+    --gris02: #BBB;
+    --espacio: 16px;
+}
+
+body{
+    /* usamos la variable dentro de var() */
+    background-color: var(--naranja);
+}
+
+h1{
+    color: var(--gris01);
+    background-color: var(--blanco);
+}
+
+p{
+   color: var(--blanco);
+   background-color: var(--gris01);
+}
