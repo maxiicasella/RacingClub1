@@ -17,12 +17,21 @@ body{
     background-color: var(--naranja);
 }
 
-h1{
-    color: var(--gris01);
-    background-color: var(--blanco);
+.contenedor{
+    background-color: pink;
+    /* Limitamos el ancho a 1200px */
+    max-width: 1200px;
+    /* Centramos el contenedor usando el mismo márgen autmático a la der y a la izq */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-p{
-   color: var(--blanco);
-   background-color: var(--gris01);
+.cabecera{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido{
+    background-color: chocolate;
 }
