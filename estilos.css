@@ -38,8 +38,7 @@ body{
     border-radius: 8px;
     border-right: 1px solid var(--negro);
     border-left: 1px solid var(--negro);
-    padding-bottom: 40px;
-
+    padding-bottom: 40px; 
 }
 
 
@@ -49,22 +48,34 @@ body{
 background-color: aqua;
 }
 .nav-lista{
-background-color: purple;
+background-color: var(--naranja);
 list-style-type: none;
 padding-left: 0;
+display: flex;
+text-align: center;
+padding: 10px 16px ;
 }
 .nav-lista li{
-background-color: violet;
+background-color: var(--naranja);
+flex-grow: 1;
 }
 .nav-lista a{
-background-color: tomato;
+    /* los transformo en elemento de bloque */
 display: block;
+text-decoration: none;
+text-align: center;
+border-right: 1px solid var(--blanco);
+font-weight: bold;
+color: var(--blanco);
+padding: 4px 8px
+
 }
 .nav-lista a:hover{
-    background-color: maroon;
+  color: var(--gris01);
 }
 .nav-form{
-background-color: seashell;
+text-align: right;
+min-width: 450px;
 }
 
 
