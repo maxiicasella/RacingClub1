@@ -14,11 +14,12 @@ VARIABLES DE CSS / CUSTOM PROPERTIES
 
 body{
     /* usamos la variable dentro de var() */
-    background-color: var(--naranja);
+    background-color: var(--gris01);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/imagenes/pattern.jpg);
 }
 
 .contenedor{
-    background-color: pink;
     /* Limitamos el ancho a 1200px */
     max-width: 1200px;
     /* Centramos el contenedor usando el mismo márgen autmático a la der y a la izq */
@@ -27,9 +28,9 @@ body{
 }
 
 .cabecera{
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
+    color: var(--naranja)
 }
 
 .contenido{
