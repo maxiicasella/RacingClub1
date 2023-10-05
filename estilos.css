@@ -34,5 +34,40 @@ body{
 }
 
 .contenido{
-    background-color: chocolate;
+    background-color: var(--blanco);
+    border-radius: 8px;
+    border-right: 1px solid var(--negro);
+    border-left: 1px solid var(--negro);
+    padding-bottom: 40px;
+
 }
+
+
+/* Navegación */
+
+.nav{
+background-color: aqua;
+}
+.nav-lista{
+background-color: purple;
+list-style-type: none;
+padding-left: 0;
+}
+.nav-lista li{
+background-color: violet;
+}
+.nav-lista a{
+background-color: tomato;
+display: block;
+}
+.nav-lista a:hover{
+    background-color: maroon;
+}
+.nav-form{
+background-color: seashell;
+}
+
+
+
+
+
