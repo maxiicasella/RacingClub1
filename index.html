@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="es"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>3alas</title>
 </head>
 <body>
     <div class="contenedor">
-       
         <div class="cabecera">
             <a href="index.html">
                 <img src="imagenes/logo_3alas.png" alt="Ir a la home">
@@ -17,7 +14,6 @@
         </div>
         <div class="contenido">
             <nav class="nav">
-                <!-- ul.nav.lista -->
                 <ul class="nav-lista">
                     <li>
                         <a href="empresa.html">Empresa</a>
@@ -39,17 +35,18 @@
                     </li>
                     <li>
                         <form action="hola.js" class="nav-form">
-                        <input type="text" placeholder="Buscar...">
-                        <input type="sumbit" value="Buscar">
+                            <!-- 👀 Esto tiene un problema de accesibilidad -->
+                            <input type="text" placeholder="Buscar...">
+                            <input type="submit" value="Buscar">
                         </form>
                     </li>
                 </ul>
             </nav>
 
             <div class="slider">
-                <img src="/imagenes/slide/2.jpg" alt="Imágen de China">
+                <img src="/imagenes/slide/2.jpg" alt="Imagen de China">
             </div>
-            
+
             <div class="main">
                 <div class="categorias">
                     <h2>Categorías</h2>
@@ -58,65 +55,49 @@
                     </ul>
                 </div>
                 <div class="productos">
-                  <div class="lampara">
-                   <h2>Lámpara de LED</h2>
-                   <div class="lampara-info">
-                    <img src="/imagenes/lamparas/lampara1.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                    </p>
-                   </div>                   
-                  </div>
-                  <div class="lampara">
-                    <h2>Lámpara de LED</h2>
-                   <div class="lampara-info">
-                    <img src="/imagenes/lamparas/lampara1.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                    </p>
-                   </div>
-                  </div>
-                  <div class="lampara">
-                    <h2>Lámpara de LED</h2>
-                   <div class="lampara-info">
-                    <img src="/imagenes/lamparas/lampara1.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                        Lorem ipsum dolor sit amet consectetur.
-                    </p>
-                   </div>
-                  </div>
-                  <div class="lampara">
-                    <h2>Lámpara de LED</h2>
-                    <div class="lampara-info">
-                     <img src="/imagenes/lamparas/lampara1.jpg" alt="">
-                     <p>Lorem ipsum dolor sit amet consectetur.
-                         Lorem ipsum dolor sit amet consectetur.
-                         Lorem ipsum dolor sit amet consectetur.
-                         Lorem ipsum dolor sit amet consectetur.
-                         Lorem ipsum dolor sit amet consectetur.
-                     </p>
+                    <div class="lampara">
+                        <h2>Lámpara de LED</h2>
+                        <div class="lampara-info">
+                            <img src="/imagenes/lamparas/lampara1.jpg" alt="">
+                            <!-- lorem ipsum, texto de relleno -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo labore odit magni! Natus temporibus quod rerum asperiores corporis nihil minima beatae assumenda quae, voluptas mollitia, molestias fuga aliquam eum earum?</p>
+                        </div>
                     </div>
-                  </div>
+                    <div class="lampara">
+                        <h2>Lampara LED1</h2>
+                        <div class="contenedor-productos">
+                            <img src="/imagenes/lamparas/lampara1.jpg" alt="Lampara LED">
+                            <p>loak sjdksd asdsadada sdadskdjadas ddksdj aadkdjfa bv fa wfaf</p>
+                        </div>
+                    </div>
+                    <div class="lampara">
+                        <h2>Lámpara de LED</h2>
+                        <img class="imagen" src="/imagenes/lamparas/lampara1.jpg" alt="Lampara">
+                        <p class="texto"> Las lámparas Bipin estan compuestas por 27 LEDs tipo SMD 5060 montadas sobre 
+                        una estructura tubular de 20mm de diámetro... </p>
+                      </div>
+                    <div class="lampara">
+                        Lámpara 4
+                    </div>
                 </div>
+            </div>
 
             <div class="newsletter">
-                Hola
-            
-        
+                <img src="/imagenes/sobre.png" alt="Sobre email">
+               <p class="news-info">
+                <strong>Recibí nuestro newsletter</strong>
+                <span>Todas nuestras noticias en tu casilla de correo.</span>
+               </p>
+               <form action="subscribite.js" class="news-form">
+                <input type="text" placeholder="Tu e-mail">
+                <input type="submit" value="Subscribite">
+            </form>
+            </div>
+
+          
         </div>
 
-
-
-
+        Soy el contenido
     </div>
-</body>
-</html>
+
+</body></html>
